@@ -131,7 +131,7 @@ printall(X_test)
 ### Orignially attempted different models with RandomForestRegressors and GridSearch methods
 ### Then, tested individual models to save on compute time resulting in the following model with best results
 
-model_3_rfr = RandomForestClassifier(n_estimators=15000, 
+model_3_rfr = RandomForestClassifier(n_estimators=10000, 
                               criterion = "entropy",
                               n_jobs=-1, 
                               random_state=42, 
